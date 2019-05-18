@@ -4,5 +4,79 @@
 }
 .under-construction{
     position: absolute;
-    bottom: 0
+    bottom: 10;
+}
+
+#main {
+    position: relative;
+}
+#main-1{
+    background-color: gold;;
+    height: 600px;
+}
+
+#second{
+    position: absolute;
+    top: 230px;
+    left: 200px;
+    max-width: 80%;
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    font-size: 60px;
+    font-weight: 200;
+}
+
+h4{
+    color: yellow;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+#second{
+    box-shadow: 10p 10px black;
+}
+.card-text{
+    max-width: 70%;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 30%;
+}
+
+.fa-dribbble{
+    color: palevioletred;
+    font-size: 30px;
+}
+
+.fa-facebook{
+    color: blue;
+    font-size: 30px;
+}
+/* .fa-facebook */
+.fa-github{
+    color: brown;
+    font-size: 30px;
+}
+
+.fa-vine{
+    color: blue;
+    font-size: 30px;
+}
+
+button{
+    background-color: white;
+    color: yellow;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+#game{
+    padding: 1%;
 }
